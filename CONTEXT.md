@@ -24,7 +24,7 @@
 - No contested/redesign signals relevant to a docs/typo cleanup pass.
 
 ## Gap ledger (dedupe — READ FIRST, never re-pick)
-- `2026-09-04` self-found trivial cleanup (typos + 1 dead link) — outcome: pr-opened — lesson: packed 12 genuine meaning-preserving fixes across 10 files (README, CONTRIBUTING, code comments, config comment, cypress comment). No upstream PR touches these strings (gh search prs empty).
+- `2026-09-04` self-found trivial cleanup (typos + 1 dead link) — outcome: pr-opened (https://github.com/olitreadwell/udata-front-kit/pull/1) — lesson: packed 12 genuine meaning-preserving fixes across 10 files (README, CONTRIBUTING, code comments, config comment, cypress comment). No upstream PR touches these strings (gh search prs empty).
 
 ## Mined gaps (discovered, not yet attempted)
 - none
