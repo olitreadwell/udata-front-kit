@@ -1,5 +1,5 @@
 # opendatateam/udata-front-kit context
-> refreshed 2026-09-04 | upstream default: main @ 570b504bd53d90f35ad0a15e6649e5e429a27b6f
+> refreshed 2026-09-09 | upstream default: main @ 2180fa710600d3eab21b6c224a0be861f5273a3a
 
 ## Identity & policies
 - upstream: opendatateam/udata-front-kit, default branch `main`, primary language Vue/TypeScript.
@@ -24,7 +24,7 @@
 - No contested/redesign signals relevant to a docs/typo cleanup pass.
 
 ## Gap ledger (dedupe — READ FIRST, never re-pick)
-- `2026-09-04` self-found trivial cleanup (typos + 1 dead link) — outcome: pr-opened (https://github.com/olitreadwell/udata-front-kit/pull/1) — lesson: packed 12 genuine meaning-preserving fixes across 10 files (README, CONTRIBUTING, code comments, config comment, cypress comment). No upstream PR touches these strings (gh search prs empty).
+- `2026-09-04` self-found trivial cleanup (typos + 1 dead link) — outcome: pr-opened (https://github.com/olitreadwell/udata-front-kit/pull/1) → promoted + MERGED upstream 2026-09-05 as https://github.com/opendatateam/udata-front-kit/pull/1375 — lesson: packed 12 genuine meaning-preserving fixes across 10 files; upstream merged cleanly, so the packed-trivial approach is accepted by this repo.
 
 ## Mined gaps (discovered, not yet attempted)
 - none
