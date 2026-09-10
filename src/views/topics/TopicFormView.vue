@@ -67,7 +67,7 @@ const inputErrorMessages = new Map([
   ['description', 'La description ne doit pas être vide.'],
   ...filtersMessages
 ])
-// Filter out valid ipnuts. Needed to reorder the received input errors to match the form order
+// Filter out valid inputs. Needed to reorder the received input errors to match the form order
 const sortedErrors = computed(() =>
   Array.from(inputErrorMessages.keys()).filter((key) =>
     formErrors.value.includes(key)
