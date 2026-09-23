@@ -150,9 +150,8 @@
               </td>
               <td>
                 <em
-                  >La DGFiP pour pour une attestation fiscale, la CAF ou la MSA
-                  pour le quotient familial, le Cnous pour le statut
-                  boursier.</em
+                  >La DGFiP pour une attestation fiscale, la CAF ou la MSA pour
+                  le quotient familial, le Cnous pour le statut boursier.</em
                 >
               </td>
             </tr>

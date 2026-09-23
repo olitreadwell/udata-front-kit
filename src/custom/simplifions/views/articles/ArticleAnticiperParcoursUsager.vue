@@ -269,7 +269,7 @@
           Si l'usager identifie une erreur dans les données ou souhaite apporter
           une modification, l'interface lui permet.
           <router-link to="#parcours-alternatifs"
-            >Plus d'informations sur parcours altenratifs</router-link
+            >Plus d'informations sur parcours alternatifs</router-link
           >.
         </li>
       </ol>
@@ -379,7 +379,7 @@
           Si l'usager identifie une erreur dans les données ou souhaite apporter
           une modification, l'interface lui permet.
           <router-link to="#parcours-alternatifs"
-            >Plus d'informations sur parcours altenratifs</router-link
+            >Plus d'informations sur parcours alternatifs</router-link
           >.
         </li>
       </ol>

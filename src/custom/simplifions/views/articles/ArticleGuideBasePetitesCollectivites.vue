@@ -48,11 +48,11 @@
         </p>
       </div>
 
-      <h3>Une obligation, le Dîtes-le nous une fois</h3>
+      <h3>Une obligation, le Dites-le-nous une fois</h3>
 
       <p>
         Ce principe s'incarne dans l'obligation légale du
-        <strong>Dites-le nous une fois</strong>, qui exige de l'administration
+        <strong>Dites-le-nous une fois</strong>, qui exige de l'administration
         qu'elle récupère les données administratives requises pour une démarche
         directement auprès de l'administration, si cela est possible.
       </p>

@@ -70,11 +70,11 @@ Dans cet esprit, l’[**Ecolab**](https://greentechinnovation.fr/) du Commissari
 
 ### Le hub des indicateurs territoriaux
 
-Élaboré par une communauté d’experts, le [hub des indicateurs territoriaux](https://greentechinnovation.fr/indicateurs-territoriaux/) constitue une base de référence harmonisée et partagée. Ces indicateurs permettent de représenter les évolutions des dernières années et de soutenir une discussion collective sur les trajectoires de transition les plus appropriées. Ils sont sont mis à disposition via l’onglet “Indicateurs” du [ _ecologie_.**data.gouv**._fr_](http://ecologie.data.gouv.fr) et une API dédiée.
+Élaboré par une communauté d’experts, le [hub des indicateurs territoriaux](https://greentechinnovation.fr/indicateurs-territoriaux/) constitue une base de référence harmonisée et partagée. Ces indicateurs permettent de représenter les évolutions des dernières années et de soutenir une discussion collective sur les trajectoires de transition les plus appropriées. Ils sont mis à disposition via l’onglet “Indicateurs” du [ _ecologie_.**data.gouv**._fr_](http://ecologie.data.gouv.fr) et une API dédiée.
 
 ### La fabrique des standards
 
-La [fabrique des standards](https://guides.data.gouv.fr/guides-de-data.gouv.fr/fabrique-des-standards/la-fabrique-des-standards) désigne le processus de création d'un standard [**CNIG**](https://cnig.gouv.fr/) avec ses différentes phases et la documentation associée à destination des acteurs de l'élaboration d'un standard (pilotes, animateurs ou participants aux GT). L’utilisation des données pour la transition écologique repose sur un ensemble d’infrastructures numériques, dont beaucoup sont ouvertes pour profiter au plus grand nombre. Parmi celles-ci, les standards de données sont à la fondation des projets. Ils décrivent des modèles de données (différents champs, représentation des données, etc.) afin d’assurer la montée en qualité et l’interopérabilité des données proposées.
+La [fabrique des standards](https://guides.data.gouv.fr/fabrique-des-standards) désigne le processus de création d'un standard [**CNIG**](https://cnig.gouv.fr/) avec ses différentes phases et la documentation associée à destination des acteurs de l'élaboration d'un standard (pilotes, animateurs ou participants aux GT). L’utilisation des données pour la transition écologique repose sur un ensemble d’infrastructures numériques, dont beaucoup sont ouvertes pour profiter au plus grand nombre. Parmi celles-ci, les standards de données sont à la fondation des projets. Ils décrivent des modèles de données (différents champs, représentation des données, etc.) afin d’assurer la montée en qualité et l’interopérabilité des données proposées.
 
 ### ISOmorphe
 
