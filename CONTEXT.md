@@ -1,6 +1,6 @@
 # opendatateam/udata-front-kit context
 
-> refreshed 2026-09-09 | upstream default: main @ 2180fa710600d3eab21b6c224a0be861f5273a3a
+> refreshed 2026-09-23 | upstream default: main @ f47d5e99caed5af320035b145bde600a88ead33c
 
 ## Identity & policies
 
