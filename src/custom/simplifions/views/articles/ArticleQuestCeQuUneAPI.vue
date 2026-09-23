@@ -62,8 +62,8 @@
       </div>
     </ArticleSection>
 
-    <ArticleSection id="administration" label="API et Dîtes-le nous une fois">
-      <template #heading>Les API du Dîtes-le nous une fois</template>
+    <ArticleSection id="administration" label="API et Dites-le-nous une fois">
+      <template #heading>Les API du Dites-le-nous une fois</template>
 
       <p class="fr-text--lg">
         L'administration française utilise de nombreuses données administratives
@@ -84,7 +84,7 @@
 
       <div class="fr-my-4w fr-highlight fr-highlight--green-menthe">
         <p class="fr-mb-0 fr-text--lg">
-          <strong>Le principe du Dîtes-le nous une fois</strong>
+          <strong>Le principe du Dites-le-nous une fois</strong>
           <br />
           La loi interdit désormais à une administration de demander à un usager
           une information qu'elle détient déjà ou qu'une autre administration
@@ -297,7 +297,7 @@
       >
 
       <p class="fr-text--lg">
-        La mise en œuvre du Dîtes-le nous une fois reposant en grande partie sur
+        La mise en œuvre du Dites-le-nous une fois reposant en grande partie sur
         des échanges de données, différentes administrations mettent à
         disposition des API dédiées à cet objectif.
       </p>
@@ -423,7 +423,7 @@
         </li>
         <li>
           Les API sont un outil majeur pour appliquer le principe du
-          <strong>Dîtes-le nous une fois</strong>.
+          <strong>Dites-le-nous une fois</strong>.
         </li>
         <li>
           Toute API repose sur des <strong>données d'appel</strong> (pour

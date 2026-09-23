@@ -84,7 +84,7 @@ const changePage = async (type: string, page = 1, query = '') => {
 }
 
 onMounted(async () => {
-  // fetch ressources
+  // fetch resources
   const resourceLoader = useLoading().show({ enforceFocus: false })
   const allResources = await resourceStore.loadResources(
     props.dataset.id,

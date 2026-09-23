@@ -30,7 +30,7 @@
 
 Une première étape pour simplifier les démarches des usagers consiste à **rendre plus facilement accessible la donnée aux agents publics** directement. L'agent public, en ayant un accès aux informations d'autres administrations peut éviter de réclamer une information à l'usager au cours d'une démarche.
 
-Les solutions de niveau 1 reférencées sur ce site sont fréquemment des portails d'accès aux données ou des annuaires.
+Les solutions de niveau 1 référencées sur ce site sont fréquemment des portails d'accès aux données ou des annuaires.
 
 <a class="fr-btn" href="/cas-d-usages?types-de-simplification=acces-facile#list">Cas d'usages de niveau 1 </a> <a class="fr-ml-1w fr-btn fr-btn fr-btn--secondary" href="/solutions?types-de-simplification=acces-facile#list"> Solutions de niveau 1</a>
 

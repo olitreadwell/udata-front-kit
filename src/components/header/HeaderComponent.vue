@@ -94,7 +94,7 @@ const { logo, title_image, description, beta, search } = header
   /* take values from config */
   --width: v-bind(logo?.width);
   --height: v-bind(logo?.height);
-  /* if no cusotm values limit height to 35px */
+  /* if no custom values limit height to 35px */
   inline-size: var(--width, auto);
   block-size: var(--height, 35px);
   /* keep the original image ratio in case of wrong values */

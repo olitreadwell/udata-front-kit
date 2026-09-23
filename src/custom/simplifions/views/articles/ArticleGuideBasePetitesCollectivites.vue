@@ -48,11 +48,11 @@
         </p>
       </div>
 
-      <h3>Une obligation, le Dîtes-le nous une fois</h3>
+      <h3>Une obligation, le Dites-le-nous une fois</h3>
 
       <p>
         Ce principe s'incarne dans l'obligation légale du
-        <strong>Dites-le nous une fois</strong>, qui exige de l'administration
+        <strong>Dites-le-nous une fois</strong>, qui exige de l'administration
         qu'elle récupère les données administratives requises pour une démarche
         directement auprès de l'administration, si cela est possible.
       </p>
@@ -303,7 +303,7 @@
 
       <p>
         Pour permettre aux administrations et collectivités de simplifier leurs
-        démarches par la donnée, la direction interministerielle du numérique
+        démarches par la donnée, la direction interministérielle du numérique
         (DINUM) a mis en place deux briques informatiques chargées de regrouper
         et de distribuer par un même tuyau les données des particuliers et les
         données des entreprises et associations :

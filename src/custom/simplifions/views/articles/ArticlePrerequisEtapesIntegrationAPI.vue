@@ -168,8 +168,8 @@
       <h4>Contacts</h4>
       <p class="fr-mt-3w">
         Une demande d'habilitation mobilise généralement plusieurs contacts au
-        sein de votre administrtation (qui peuvent parfois être la même
-        personne) :
+        sein de votre administration (qui peuvent parfois être la même personne)
+        :
       </p>
 
       <div class="fr-table">
@@ -440,8 +440,8 @@
 
       <p>
         Après des tests concluants, l'accès en production peut démarrer.
-        Quelques bonnes pratiques à mettre en place dès le lancement lorqu'elles
-        sont rendues possibles par l'opérateur de l'API :
+        Quelques bonnes pratiques à mettre en place dès le lancement
+        lorsqu'elles sont rendues possibles par l'opérateur de l'API :
       </p>
 
       <ul class="fr-mb-3w">

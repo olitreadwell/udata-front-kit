@@ -5,7 +5,7 @@ TL;DR:
 - Code documentation is in the [JSDoc](https://jsdoc.app/) format.
 - Commits follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 - Code styling is programmatically enforced and follows [Standard](https://standardjs.com/).
-- Testing is done with [Vutest](https://vutest.dev) and [Cypress](https://www.cypress.io/).
+- Testing is done with [Vitest](https://vitest.dev/) and [Cypress](https://www.cypress.io/).
 - Pull requests, reviews, and merging, follow [GitHub Flow](https://guides.github.com/introduction/flow/).
 - Change advertising follows [SemVer](http://semver.org/).
 

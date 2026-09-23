@@ -6,7 +6,7 @@ Cette déclaration d’accessibilité s’applique à **ecologie.data.gouv.fr** 
 
 ## État de conformité
 
-**ecologie.data.gouv.fr** est en conforimté partielle avec le référentiel général d’amélioration de l’accessibilité en raison des non-conformités énumérées ci-dessous.
+**ecologie.data.gouv.fr** est en conformité partielle avec le référentiel général d’amélioration de l’accessibilité en raison des non-conformités énumérées ci-dessous.
 
 ## Résultats des tests
 
@@ -38,7 +38,7 @@ Liste des critères non conforme&nbsp;:
 - 9.3 – Dans chaque page web, chaque liste est-elle correctement structurée ?
 - 10.1 – Dans le site web, des feuilles de styles sont-elles utilisées pour contrôler la présentation de l’information ?
 - 10.3 – Dans chaque page web, l’information reste-t-elle compréhensible lorsque les feuilles de styles sont désactivées ?
-- 10.7 – Dans chaque page web, pour chaque élément recevant le focus, la prise de focus st-elle visible ?
+- 10.7 – Dans chaque page web, pour chaque élément recevant le focus, la prise de focus est-elle visible ?
 - 10.11 – Pour chaque page web, les contenus peuvent-ils être présentés sans perte d’information ou de fonctionnalité et sans avoir recours soit à un défilement vertical pour une fenêtre ayant une hauteur de 256 px, soit à un défilement horizontal pour une fenêtre ayant une largeur de 320 px (hors cas particuliers) ?
 - 10.13 – Dans chaque page web, les contenus additionnels apparaissant à la prise de focus ou au survol d’un composant d’interface sont-ils contrôlables par l’utilisateur (hors cas particuliers) ?
 - 11.1 – Chaque champ de formulaire a-t-il une étiquette ?
