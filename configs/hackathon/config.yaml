@@ -48,7 +48,7 @@ website:
             - id: 'guide'
               name: 'Consulter le guide du hackathon "Le climat en données"'
               description: 'Parcourez le guide qui vous accompagnera pendant toute la durée du hackathon avec des informations, des ressources et des bonnes pratiques.'
-              url: 'https://guides.data.gouv.fr/guide-du-participant-au-hackathon-le-climat-en-donnees/'
+              url: 'https://guides.data.gouv.fr/guides/guide-du-participant-au-hackathon-le-climat-en-donnees/'
 
         sub_section_buttons:
     meta_description:
@@ -92,7 +92,7 @@ website:
     - text: Tous les hackathons
       to: /hackathons/
     - text: Guide du prochain hackathon
-      to: 'https://guides.data.gouv.fr/guide-du-participant-au-hackathon-le-climat-en-donnees/'
+      to: 'https://guides.data.gouv.fr/guides/guide-du-participant-au-hackathon-le-climat-en-donnees/'
   router:
     static_pages:
       - title: 'Accessibilité'

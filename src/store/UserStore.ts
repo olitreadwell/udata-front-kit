@@ -106,7 +106,7 @@ export const useUserStore = defineStore('user', {
       LocalStorageService.setItem(STORAGE_KEY, token)
     },
     /**
-     * Reflet logged-out state
+     * Reflects logged-out state
      */
     logout() {
       this.isLoggedIn = false
