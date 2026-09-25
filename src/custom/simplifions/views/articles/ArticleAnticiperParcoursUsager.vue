@@ -472,7 +472,7 @@
           alternatifs.</strong
         >
         Aucune API n'est fiable à 100% : en cas de panne, de donnée manquante ou
-        erronnée, l'usager doit pouvoir saisir l'information manuellement ou
+        erronée, l'usager doit pouvoir saisir l'information manuellement ou
         déposer le document lui-même, sans que sa démarche soit bloquée.
       </p>
 
@@ -527,7 +527,7 @@
             >Le choix du parcours dépend de l'ouverture de la donnée transmise
             par API.</strong
           >
-          Lorsque la donnée est plubique, le parcours est facile car la réponse
+          Lorsque la donnée est publique, le parcours est facile car la réponse
           de l'API peut être affichée. En revanche lorsque la donnée est
           protégée, les parcours possibles sont construits de façon à s'assurer
           que la donnée protégée sera visible uniquement par les bonnes
@@ -544,7 +544,7 @@
         </li>
         <li>
           <strong>Prévoyez toujours un parcours alternatif.</strong> En cas de
-          panne, de donnée obsolète ou erronnée, l'usager doit pouvoir saisir
+          panne, de donnée obsolète ou erronée, l'usager doit pouvoir saisir
           l'information et déposer un justificatif.
         </li>
       </SimplifionsArticleChecklist>

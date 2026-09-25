@@ -42,7 +42,7 @@ La description de la réutilisation publiée devra respecter le format suivant (
 
 ### **Rendu intermédiaire jour 1️⃣**
 
-Au terme de la 1ère journée du hackathon, nous vous invitons à partager via le [**formulaire**](https://grist.numerique.gouv.fr/o/docs/forms/j2BJcnF9vbjYDhCXKCeph9/54) une description succinte de votre projet, afin que nous puissions vous identifier et organiser la présentation devant les mentors et la présélection.
+Au terme de la 1ère journée du hackathon, nous vous invitons à partager via le [**formulaire**](https://grist.numerique.gouv.fr/o/docs/forms/j2BJcnF9vbjYDhCXKCeph9/54) une description succincte de votre projet, afin que nous puissions vous identifier et organiser la présentation devant les mentors et la présélection.
 
 Cette description ne vous engage en rien, et vous pourrez toujours changer votre approche.
 

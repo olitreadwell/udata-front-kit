@@ -40,7 +40,7 @@ website:
         sub_section_cards:
         sub_section_tiles:
         sub_section_buttons:
-    meta_description: accessibilite.data.gouv.fr référence et centralise les données relatives à l'accesssibilité.
+    meta_description: accessibilite.data.gouv.fr référence et centralise les données relatives à l'accessibilité.
   footer:
     logo:
       src: /static/logos/accessibilite-logo.svg
