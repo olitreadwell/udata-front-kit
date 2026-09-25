@@ -303,7 +303,7 @@
 
       <p>
         Pour permettre aux administrations et collectivités de simplifier leurs
-        démarches par la donnée, la direction interministerielle du numérique
+        démarches par la donnée, la direction interministérielle du numérique
         (DINUM) a mis en place deux briques informatiques chargées de regrouper
         et de distribuer par un même tuyau les données des particuliers et les
         données des entreprises et associations :
