@@ -14,7 +14,7 @@ defineProps({
       <div v-for="(item, index) in subsection.cards" :key="index">
         <DsfrCard
           class="subsection-card"
-          alt-img="altImg"
+          alt-img=""
           :description="item.description"
           :img-src="item.image_url"
           :link="item.url"
