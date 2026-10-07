@@ -4,21 +4,21 @@
 
 ## **👋 Bienvenue !**
 
-Nous sommes ravis de vous compter parmi nous pour ce hackathon autour des données alimentaire
+Nous sommes ravis de vous compter parmi nous pour ce hackathon autour des données alimentaires
 
 Ce guide a pour vocation de vous accompagner au Hackathon Données Alimentaires pendant toute la durée de l’événement avec des informations, des ressources et des bonnes pratiques 🌟
 
-## 🏹 **Objectif**s
+## 🏹 **Objectifs**
 
-Ce hackathon unique vous invite à **exploiter des données ouvertes riches pour imaginer des solutions innovante qui répondent aux défis de demain** 🌱.
+Ce hackathon unique vous invite à **exploiter des données ouvertes riches pour imaginer des solutions innovantes qui répondent aux défis de demain** 🌱.
 
 **✔️** Décloisonner et cataloguer les données alimentaires
 
-**✔️** Créer des service innovants
+**✔️** Créer des services innovants
 
 ## 🎯 Piste d’action
 
-Afin de vous guider dans ces deux journées, nous vous proposons quelques pistes d’actions avec des cas d’usages identifier :
+Afin de vous guider dans ces deux journées, nous vous proposons quelques pistes d’actions avec des cas d’usages identifiés :
 
 - **Nourrir la réflexion sur le projet de loi Egalim4** en mettant en exergue les besoins de la filière agricole et en permettant d’identifier des pistes de réponses à y apporter. Cf les informations sur [la loi Egalim](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000037547946/)
 - **Enrichir le service Ma Cantine avec de nouveaux indicateurs**
