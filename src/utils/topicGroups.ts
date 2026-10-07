@@ -162,8 +162,9 @@ export function useFactorsFilter(factors: Ref<ResolvedFactor[]>) {
       if (!searchQuery.value) {
         factor.isHidden = false
       } else {
+        // some legacy factors have no title, fallback to '' to avoid errors
         factor.isHidden = !(
-          factor.title.toLowerCase().includes(searchValue) ||
+          (factor.title || '').toLowerCase().includes(searchValue) ||
           (factor.description &&
             factor.description.toLowerCase().includes(searchValue))
         )
