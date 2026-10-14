@@ -29,4 +29,4 @@ Vérifier si l'illustration n'est pas "cassée" après activation de ces réglag
 
 ## Ressources
 
-- [Contextually Marking up accessible images and SVGs (2021)](https://www.scottohara.me/blog/2019/05/22/contextual-images-svgs-and-a11y.html)
+- [Contextually Marking up accessible images and SVGs (2019)](https://www.scottohara.me/blog/2019/05/22/contextual-images-svgs-and-a11y.html)

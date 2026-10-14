@@ -152,7 +152,7 @@ const routerPromise = siteRoutesPromise.then((siteRoutes) => {
       if (to.meta.searchConfig && from.meta.searchConfig) {
         return false
       }
-      // When asked explicitely by route, do not scroll to top when navigating on the same page
+      // When asked explicitly by route, do not scroll to top when navigating on the same page
       if (to.path === from.path && to.meta.preserveScrollOnReplace) {
         return false
       }
