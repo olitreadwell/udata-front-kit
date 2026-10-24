@@ -181,7 +181,7 @@ defineExpose({
     :key="filter.id"
     class="fr-select-group fr-input-group"
   >
-    <label class="fr-label" for="input-theme">
+    <label class="fr-label" :for="`input-${filter.id}`">
       {{ filter.name }} <span v-if="filter.form?.required">(obligatoire)</span>
     </label>
     <select
