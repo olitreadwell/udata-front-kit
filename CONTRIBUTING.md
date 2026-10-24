@@ -5,7 +5,7 @@ TL;DR:
 - Code documentation is in the [JSDoc](https://jsdoc.app/) format.
 - Commits follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 - Code styling is programmatically enforced and follows [Standard](https://standardjs.com/).
-- Testing is done with [Vutest](https://vutest.dev) and [Cypress](https://www.cypress.io/).
+- Testing is done with [Vitest](https://vitest.dev) and [Cypress](https://www.cypress.io/).
 - Pull requests, reviews, and merging, follow [GitHub Flow](https://guides.github.com/introduction/flow/).
 - Change advertising follows [SemVer](http://semver.org/).
 
@@ -80,8 +80,7 @@ We strive to deliver great error messages, which means they are:
 is: ...`.
 - **Great**: `The description provided contains invalid Markdown characters,
 which will make it not to be rendered as expected. For information about 
-Markdown, please take a look at https://docs.github.
-com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github;
+Markdown, please take a look at https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github;
 if you believe this is a mistake, please open an issue directly at
 https://github.com/ecolabdata/ecospheres-front/issues/new; if you are not a 
 technical person or prefer to talk to a human, please send an email to

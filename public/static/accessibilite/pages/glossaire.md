@@ -33,7 +33,7 @@ Quelques définitions en lien avec le PAUDA en français simplifié.
 
 <dl>
 	<dt>Établissement recevant du public (ERP)</dt>
-	<dd>Un établissement recevant du public est un lieu, public ou privé, où des personnes extérieures sont admises. Les établissement recevant du public doivent respecter des règles de sécurité et d’accessibilité.</dd>
+	<dd>Un établissement recevant du public est un lieu, public ou privé, où des personnes extérieures sont admises. Les établissements recevant du public doivent respecter des règles de sécurité et d’accessibilité.</dd>
 </dl>
 
 ## H
