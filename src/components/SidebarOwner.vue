@@ -23,10 +23,18 @@ const organizationUrl = computed(() =>
   <div v-if="object.organization" class="fr-grid-row fr-grid-row--middle">
     <OrganizationLogo :object="object" class="fr-mr-1-5v" />
     <p class="fr-col fr-m-0 min-width-0">
-      <RouterLink v-if="organizationUrl" class="fr-link" :to="organizationUrl">
+      <RouterLink
+        v-if="organizationUrl"
+        class="fr-link sidebar-owner-link"
+        :to="organizationUrl"
+      >
         <OrganizationNameWithCertificate :organization="object.organization" />
       </RouterLink>
-      <a v-else class="fr-link" :href="object.organization.page">
+      <a
+        v-else
+        class="fr-link sidebar-owner-link"
+        :href="object.organization.page"
+      >
         <OrganizationNameWithCertificate :organization="object.organization" />
       </a>
     </p>
@@ -49,6 +57,12 @@ const organizationUrl = computed(() =>
 </template>
 
 <style scoped>
+/* OrganizationNameWithCertificate renders a block-level <div>, so an inline
+   <a> loses its box: the DSFR underline and the hover/focus styles never show.
+   Giving the link a box restores them. */
+.sidebar-owner-link {
+  display: inline-block;
+}
 .owner-logo {
   display: inline-block;
   padding: 6px;
