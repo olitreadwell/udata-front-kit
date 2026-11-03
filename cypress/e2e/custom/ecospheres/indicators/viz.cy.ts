@@ -97,5 +97,58 @@ describe('Indicator Viz', () => {
         .find('option[value="commune"]')
         .should('not.exist')
     })
+
+    // The chart loads its own resources; it used to rely on the Fichiers tab's mount, which never happens with the explorer enabled.
+    it('should still display the previsualisation when the new resources explorer is enabled', () => {
+      cy.window().then((win) => {
+        win.localStorage.setItem('resources_explorer_enabled', 'true')
+      })
+
+      const indicatorWithViz = createIndicator(
+        {},
+        { enable_visualization: true }
+      )
+      const vizResource = createIndicatorResource('fr')
+      cy.mockDatasetAndRelatedObjects(indicatorWithViz, [vizResource])
+      cy.intercept(
+        'GET',
+        `https://tabular-api*.data.gouv.fr/api/resources/${vizResource.id}/data/**`,
+        { statusCode: 200, body: { data: [] } }
+      )
+
+      cy.visit(`/indicators/${indicatorWithViz.id}`)
+      cy.contains('Prévisualisation').click()
+      cy.get('#viz-mesh-select').should('exist')
+    })
+  })
+
+  describe('Resource link', () => {
+    it('should open the Fichiers tab instead of the default Prévisualisation tab', () => {
+      const indicatorWithViz = createIndicator(
+        {},
+        { enable_visualization: true }
+      )
+      const resource = createIndicatorResource()
+      cy.mockDatasetAndRelatedObjects(indicatorWithViz, [resource])
+      // the preview panel is mounted even when hidden, so its chart still fetches
+      cy.intercept(
+        'GET',
+        `https://tabular-api*.data.gouv.fr/api/resources/${resource.id}/data/**`,
+        { statusCode: 200, body: { data: [] } }
+      )
+
+      cy.visit(
+        `/indicators/${indicatorWithViz.id}/files?resource_id=${resource.id}`
+      )
+
+      cy.get('[role="tab"][aria-selected="true"]').should('contain', 'Fichiers')
+      cy.location('pathname').should('match', /\/files$/)
+      cy.location('search').should('include', `resource_id=${resource.id}`)
+
+      // query belongs to the tab being left
+      cy.contains('[role="tab"]', 'Sources').click()
+      cy.location('pathname').should('match', /\/sources$/)
+      cy.location('search').should('eq', '')
+    })
   })
 })

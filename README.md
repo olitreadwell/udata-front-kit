@@ -147,7 +147,7 @@ agent-vm setup  # creates a base VM
 Créer un fichier `.env.local` à la racine du projet (non versionné) :
 
 ```sh
-VITE_SITE_ID=simplifions
+VITE_SITE_ID=ecospheres
 ```
 
 **Lancement :**
@@ -265,6 +265,7 @@ Le script :
 | `--source <branch>`  | Branche source (obligatoire pour prod, défaut : `main` pour demo/preprod) |
 | `--ignore-git-clean` | Ignore la vérification de l'état git (utile pour les tests)               |
 | `--skip-release`     | Ne pas créer de release GitHub (prod uniquement)                          |
+| `--bypass-review`    | Ignore la vérification du statut de review de la PR                       |
 
 ##### Solution 2 : Interface GitHub Actions
 
@@ -313,13 +314,12 @@ Pour ces sites, `scripts/deploy.sh` ne s'applique pas car il n'y a pas de branch
 
 ### 📦 Bibliothèques
 
-- `@datagouv/components` - Composants officiels de data.gouv.fr
+- `@datagouv/components-next` - Composants officiels de data.gouv.fr
 - `@gouvminint/vue-dsfr` - Intégration Vue.js du Design System de l'État
 - `@gouvfr/dsfr` - Design System de l'État Français
 - `@vueuse/core` - Utilitaires Vue.js (useTitle, etc.)
   - `@vueuse/integrations` - Intégrations supplémentaires de VueUse (focustrap)
 - `unplugin-auto-import` - Auto-import d'API Vue.js et vue-dsfr
-- `unplugin-vue-components` - Auto-import des composants custom et vue-dsfr
 - `@unhead/vue` - Gestion du SEO et des métadonnées
 
 ### 🧹 Formatage et validation du code
@@ -379,6 +379,7 @@ sentry:
   domain_url: 'https://errors.data.gouv.fr/' # Ou tout autre domaine où vous hébergez votre sentry
   dsn: 'https://c8268303ac0799edda45ced7faa7e0a0@errors.data.gouv.fr/38' # Vous trouverez ce DSN lors de l'initialisation de votre projet dans Sentry
   environment: 'preprod' # Ou autre (par exemple 'production'), selon la branche de déploiement
+  tracesSampleRate: 0.1 # Optionnel, active le suivi des performances (chargements de page, navigations, requêtes) sur 10 % des navigations
 ```
 
 D'autres éléments de configuration sont disponibles dans le fichier [src/model/config.ts](./src/model/config.ts)

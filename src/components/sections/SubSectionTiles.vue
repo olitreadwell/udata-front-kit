@@ -5,10 +5,6 @@ defineProps({
     required: true
   }
 })
-
-const goToPage = (page: string) => {
-  window.location.href = page
-}
 </script>
 
 <template>
@@ -20,12 +16,12 @@ const goToPage = (page: string) => {
         :key="item.id"
         :class="'fr-col-12 ' + subsection.class"
       >
-        <div class="item-card" @click="goToPage(item.url)">
+        <a class="item-card" :href="item.url">
           <div class="item-title">{{ item.name }}</div>
           <div class="item-description">
             {{ item.description }}
           </div>
-        </div>
+        </a>
       </div>
     </div>
   </div>
@@ -37,12 +33,15 @@ const goToPage = (page: string) => {
   font-size: 20px;
 }
 .item-card {
+  display: block;
   height: 100%;
   border: 1px solid #ebebeb;
   padding: 20px;
   text-align: left;
   min-height: 190px;
   border-bottom: 3px solid var(--border-action-high-blue-france);
+  color: inherit;
+  text-decoration: none;
 }
 .item-title {
   font-size: 18px;
@@ -53,5 +52,9 @@ const goToPage = (page: string) => {
 .item-card:hover {
   cursor: pointer;
   background-color: #ebebeb;
+}
+.item-card:focus-visible {
+  outline: 2px solid var(--border-action-high-blue-france);
+  outline-offset: 2px;
 }
 </style>
