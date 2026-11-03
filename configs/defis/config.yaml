@@ -49,7 +49,7 @@ website:
             - id: 'evaluate'
               name: 'Evaluer la qualité des données'
               description: "Comment s'informer sur un jeu de données"
-              url: 'https://guides.data.gouv.fr/reutiliser-des-donnees/guide-traitement-et-analyse-de-donnees/prendre-connaissance-et-evaluer-la-qualite-de-donnees'
+              url: 'https://guides.data.gouv.fr/guides/reutiliser-des-donnees/guide-traitement-et-analyse-de-donnees/prendre-connaissance-et-evaluer-la-qualite-de-donnees'
             - id: 'get'
               name: 'Récupérer des données'
               description: 'Comment télécharger des données ou utiliser une API'
@@ -57,7 +57,7 @@ website:
             - id: 'manipulate'
               name: 'Manipuler des données'
               description: 'Comment ouvrir, filtrer, nettoyer ou croiser des données'
-              url: 'https://guides.data.gouv.fr/reutiliser-des-donnees/guide-traitement-et-analyse-de-donnees/manipuler-des-donnees'
+              url: 'https://guides.data.gouv.fr/guides/reutiliser-des-donnees/guide-traitement-et-analyse-de-donnees/manipuler-des-donnees'
             - id: 'analyze'
               name: 'Analyser des données'
               description: "Comment utiliser un tableur, python ou R pour l'analyse"

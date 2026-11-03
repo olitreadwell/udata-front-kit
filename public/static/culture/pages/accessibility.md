@@ -7,7 +7,7 @@ La Direction Interministérielle du Numérique s’engage à rendre son service 
 Cette déclaration d’accessibilité s’applique à culture.data.gouv.fr (https://culture.data.gouv.fr).
 État de conformité
 
-culture.data.gouv.fr est non conforme avec le RGAA. Le site n’a encore pas été audité.
+culture.data.gouv.fr est non conforme avec le RGAA. Le site n’a pas encore été audité.
 Amélioration et contact
 
 Si vous n’arrivez pas à accéder à un contenu ou à un service, vous pouvez contacter le responsable de culture.data.gouv.fr pour être orienté vers une alternative accessible ou obtenir le contenu sous une autre forme.
@@ -27,4 +27,4 @@ Vous pouvez :
     Défenseur des droits
     Libre réponse 71120 75342 Paris CEDEX 07
 
-Cette déclaration d’accessibilité a été créé le 11 décembre 2023 grâce au Générateur de Déclaration d’Accessibilité de BetaGouv.
+Cette déclaration d’accessibilité a été créée le 11 décembre 2023 grâce au Générateur de Déclaration d’Accessibilité de BetaGouv.
