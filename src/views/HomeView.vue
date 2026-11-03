@@ -27,10 +27,6 @@ const sectionsHomePage = config.website.homepage.sections
 const colorsBanner = config.website.home_banner_colors
 const searchConfig = config.website.search_bar
 const secondarySearchConfig = config.website.secondary_search
-
-const goToPage = (page: string) => {
-  window.location.href = page
-}
 </script>
 
 <template>
@@ -71,13 +67,13 @@ const goToPage = (page: string) => {
           @update:model-value="updateQuery"
         />
         <div v-if="secondarySearchConfig.display" class="or-sep">ou</div>
-        <div
+        <a
           v-if="secondarySearchConfig.display"
           class="button-search-guided"
-          @click="goToPage(secondarySearchConfig.link)"
+          :href="secondarySearchConfig.link"
         >
           {{ secondarySearchConfig.name }}
-        </div>
+        </a>
       </div>
     </div>
   </div>
