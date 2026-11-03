@@ -583,8 +583,8 @@ const getAPIUrl = (endpoint: string) => {
       </div>
     </div>
 
-    <div v-if="showLoader">
-      <img src="../assets/loader.gif" width="50" />
+    <div v-if="showLoader" role="status">
+      <img src="../assets/loader.gif" width="50" alt="Chargement en cours" />
     </div>
   </div>
 </template>
