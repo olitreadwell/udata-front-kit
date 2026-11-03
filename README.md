@@ -265,6 +265,7 @@ Le script :
 | `--source <branch>`  | Branche source (obligatoire pour prod, défaut : `main` pour demo/preprod) |
 | `--ignore-git-clean` | Ignore la vérification de l'état git (utile pour les tests)               |
 | `--skip-release`     | Ne pas créer de release GitHub (prod uniquement)                          |
+| `--bypass-review`    | Ignore la vérification du statut de review de la PR                       |
 
 ##### Solution 2 : Interface GitHub Actions
 
@@ -313,13 +314,12 @@ Pour ces sites, `scripts/deploy.sh` ne s'applique pas car il n'y a pas de branch
 
 ### 📦 Bibliothèques
 
-- `@datagouv/components` - Composants officiels de data.gouv.fr
+- `@datagouv/components-next` - Composants officiels de data.gouv.fr
 - `@gouvminint/vue-dsfr` - Intégration Vue.js du Design System de l'État
 - `@gouvfr/dsfr` - Design System de l'État Français
 - `@vueuse/core` - Utilitaires Vue.js (useTitle, etc.)
   - `@vueuse/integrations` - Intégrations supplémentaires de VueUse (focustrap)
 - `unplugin-auto-import` - Auto-import d'API Vue.js et vue-dsfr
-- `unplugin-vue-components` - Auto-import des composants custom et vue-dsfr
 - `@unhead/vue` - Gestion du SEO et des métadonnées
 
 ### 🧹 Formatage et validation du code

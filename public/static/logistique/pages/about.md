@@ -4,7 +4,7 @@ logistique.data.gouv.fr est une plateforme publique de partage de données ouver
 
 <br />
 
-# Observatoire régionaux
+# Observatoires régionaux
 
 <div style="display: flex; flex-wrap: wrap;">
     <div style="width: 350px; min-height: 150px; border: 1px solid #ebebeb; padding: 15px; margin-right: 20px; margin-bottom: 20px;">
