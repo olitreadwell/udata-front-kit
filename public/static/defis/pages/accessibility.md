@@ -8,7 +8,7 @@ Cette déclaration d’accessibilité s’applique à defis.data.gouv.fr (https:
 
 ## État de conformité
 
-defis.data.gouv.fr est non conforme avec le RGAA. Le site n’a encore pas été audité.
+defis.data.gouv.fr est non conforme avec le RGAA. Le site n’a pas encore été audité.
 
 ## Amélioration et contact
 
@@ -29,4 +29,4 @@ Vous pouvez :
   Défenseur des droits
   Libre réponse 71120 75342 Paris CEDEX 07
 
-Cette déclaration d’accessibilité a été créé le 11 décembre 2023 grâce au Générateur de Déclaration d’Accessibilité de BetaGouv.
+Cette déclaration d’accessibilité a été créée le 11 décembre 2023 grâce au Générateur de Déclaration d’Accessibilité de BetaGouv.

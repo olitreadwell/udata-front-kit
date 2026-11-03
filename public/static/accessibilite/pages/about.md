@@ -28,7 +28,7 @@ Notre mission est de mettre en avant et ouvrir toutes les données d'accessibili
 
 L'ensemble des jeux de données référencés sont des données ouvertes. On entend par données ouvertes (dites <span lang="en">open data</span>) toutes données en accès libre, gratuites et réutilisables par toutes et tous. Ces données peuvent être produites par l'administration, mais aussi par des acteurs privés ou encore des citoyens.
 
-PAUDA ne concernent pas les données restreintes qui, contrairement aux données ouvertes, sont des informations soumises à des restrictions d'accès et de diffusion en raison de leur caractère sensible ou confidentiel, comme les données personnelles. Ce type de données n'est pas utilisé sur notre plateforme.
+PAUDA ne concerne pas les données restreintes qui, contrairement aux données ouvertes, sont des informations soumises à des restrictions d'accès et de diffusion en raison de leur caractère sensible ou confidentiel, comme les données personnelles. Ce type de données n'est pas utilisé sur notre plateforme.
 
 Les jeux de données valorisés par PAUDA sont classés par thèmes. Ces thèmes permettent de regrouper les informations dans un ensemble commun. Par exemple, certains thèmes sont&nbsp;: le Tourisme, l'Autonomie ou l'Enseignement.
 
